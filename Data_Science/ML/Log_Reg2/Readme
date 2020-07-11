@@ -1,0 +1,9 @@
+This project implements a spam filter using Logistic Regression in the following ways:
+
+- a dataset containing only spam messages was extracted from the main dataset
+- a list of 25 most common words appearing in the spam messages was created
+- each and every message in the dataset was then assigned a score based on the words contained and whether they made an appearence on the spam list.
+- a model was trained to detect spam on the basis of the score
+- model was hypertuned for maximum accuracy
+
+The final accuracy score for the Logistic Regression model was 91%
